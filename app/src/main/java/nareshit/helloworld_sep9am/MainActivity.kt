@@ -1,8 +1,9 @@
 package nareshit.helloworld_sep9am
 
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 
-class MainActivity:android.app.Activity()
+class MainActivity:AppCompatActivity()
 {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
